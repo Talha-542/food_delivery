@@ -43,6 +43,7 @@ import food_29 from './food_29.png'
 import food_30 from './food_30.png'
 import food_31 from './food_31.png'
 import food_32 from './food_32.png'
+import food_33 from './food_33.png'
 
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
@@ -346,5 +347,13 @@ export const food_list = [
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Noodles"
+    }, {
+        _id: "33",
+        name: "Chicken Biryani",
+        image: food_33,
+        price: 17,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Rice"
     }
+
 ]
