@@ -29,9 +29,9 @@
   font-size: 1vw;
 }
 
-.header-content button{
+.header-btn{
     background: transparent;
     padding: 10px 30px;
     border-radius: 50px;
-    border-color:grey;
+    border: 3px solid white;
 }

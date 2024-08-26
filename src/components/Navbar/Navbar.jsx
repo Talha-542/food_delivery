@@ -11,7 +11,7 @@ export default function Navbar() {
 
     return (
         <div className='navbar'>
-            <h1 className='logo-text'>TOMATO</h1>
+            <h1 className='logo-text'>Food Inc.</h1>
             <ul className="navbar-menu">
                 <li 
                     className={menu === 'home' ? 'active' : ''} 
