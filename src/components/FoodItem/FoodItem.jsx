@@ -2,7 +2,10 @@ import React, { useState } from 'react';
 import './FoodItem.css';
 import add_icon_green from '../../assets/add_icon_green.png'; // Correct path
 
-const FoodItem = ({ id, name, description, price, image }) => {
+const FoodItem = ({ id, name, description, price, image,rating }) => {
+  const handleButtonClick = () => {
+    console.log('Add to cart is Clicked');
+  };
   const [itemCount, setItemCount] = useState(0);
 
   return (
@@ -25,7 +28,9 @@ const FoodItem = ({ id, name, description, price, image }) => {
           <p>{name}</p>
         </div>
         <p className="food-item-desc">{description}</p>
+        <p className='item_rating'>Ratings: {rating}/5</p>
         <p className="food-item-price">${price}</p>
+        <button className='add_to_cart' onClick={handleButtonClick}>Add to Cart</button>
       </div>
     </div>
   );

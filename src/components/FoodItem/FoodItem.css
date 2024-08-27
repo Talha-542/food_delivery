@@ -1,0 +1,12 @@
+.add_to_cart{
+    width:100%;
+    padding:5px;
+    margin-top: 1px;
+    background-color: tomato;
+    border: none;
+    color: white
+}
+
+.item_rating{
+    color: #495774;    
+}
