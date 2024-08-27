@@ -1,8 +1,10 @@
 import React from 'react'
 import {Routes, Route} from 'react-router-dom'
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import Navbar from './components/Navbar/Navbar.jsx';
 import Home from './pages/Home/Home.jsx';
 import Cart from './pages/Cart/Cart.jsx';
+
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder.jsx';
 
 export default function App() {
