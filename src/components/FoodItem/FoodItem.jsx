@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import './FoodItem.css';
 import add_icon_green from '../../assets/add_icon_green.png'; // Correct path
 
-const FoodItem = ({ id, name, description, price, image,rating }) => {
+const FoodItem = ({  name, description, price, image,rating }) => {
   const handleButtonClick = () => {
     console.log('Add to cart is Clicked');
   };
